@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#!/bin/env python
 
 """
 Generates numpy wrapper - both header and .cc file

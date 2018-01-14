@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/bin/env python
 
 """
 Generate the .cc file with the signatures
@@ -42,7 +42,7 @@ FUNCTIONS_LIST=LIBM_FUNCTIONS_LIST+\
                 "fast_tan",
                 "fast_tanh"]
 
-VDT_VECTOR_HEADER='vdtMath.h'
+VDT_VECTOR_HEADER='vdt/vdtMath.h'
 VDT_VECTOR_IMPL='vdtMath_signatures.cc'
 
 #------------------------------------------------------------------
