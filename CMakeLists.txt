@@ -280,6 +280,8 @@ INSTALL(FILES
         include/tan.h
         include/vdtcore_common.h
         include/vdtMath.h
-        DESTINATION include/vdt)
+        DESTINATION include/vdt )
 
+INSTALL ( DIRECTORY ${CMAKE_SOURCE_DIR}/scripts/
+          DESTINATION scripts )
 
