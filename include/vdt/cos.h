@@ -12,7 +12,7 @@
 #ifndef COS_H_
 #define COS_H_
 
-#include "sincos.h"
+#include "vdt/sincos.h"
 
 namespace vdt{
 

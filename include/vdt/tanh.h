@@ -25,7 +25,7 @@
 #ifndef TANH_H_
 #define TANH_H_
 
-#include "vdtcore_common.h"
+#include "vdt/vdtcore_common.h"
 
 namespace vdt{
 

@@ -27,7 +27,7 @@
 #ifndef SIN_H_
 #define SIN_H_
 
-#include "sincos.h"
+#include "vdt/sincos.h"
 
 namespace vdt{
 

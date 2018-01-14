@@ -265,21 +265,22 @@ endif(DIAG)
 
 # Install location
 INSTALL(FILES
-        include/asin.h
-        include/atan.h
-        include/tanh.h
-        include/atan2.h
-        include/cos.h
-        include/exp.h
-        include/identity.h
-        include/inv.h
-        include/log.h
-        include/sincos.h
-        include/sin.h
-        include/sqrt.h
-        include/tan.h
-        include/vdtcore_common.h
-        include/vdtMath.h
+        include/vdt/asin.h
+        include/vdt/atan2.h
+        include/vdt/atan.h
+        include/vdt/cos.h
+        include/vdt/exp.h
+        include/vdt/identity.h
+        include/vdt/inv.h
+        include/vdt/log.h
+        include/vdt/sincos.h
+        include/vdt/sin.h
+        include/vdt/sqrt.h
+        include/vdt/stdwrap.h
+        include/vdt/tan.h
+        include/vdt/tanh.h
+        include/vdt/vdtcore_common.h
+        include/vdt/vdtMath.h
         DESTINATION include/vdt )
 
 INSTALL ( DIRECTORY ${CMAKE_SOURCE_DIR}/scripts/

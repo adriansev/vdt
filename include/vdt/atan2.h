@@ -27,8 +27,8 @@
 #ifndef ATAN2_H_
 #define ATAN2_H_
 
-#include "vdtcore_common.h"
-#include "atan.h"
+#include "vdt/vdtcore_common.h"
+#include "vdt/atan.h"
 
 namespace vdt{
 

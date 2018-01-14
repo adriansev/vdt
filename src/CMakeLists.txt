@@ -12,4 +12,4 @@ EXEC_PROGRAM ("cd src;python ${CMAKE_SOURCE_DIR}/src/signatures_generator.py ${S
 if(USE_VC)
   EXEC_PROGRAM ("cd src;python vc_wrapper_generator.py;cd -")
 endif(USE_VC)
-configure_file( ${INC_DIR}/externalLibcfg.h.cmake ${INC_DIR}/externalLibcfg.h)
+configure_file( ${INC_DIR}/vdt/externalLibcfg.h.cmake ${INC_DIR}/vdt/externalLibcfg.h)

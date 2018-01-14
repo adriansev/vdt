@@ -27,7 +27,7 @@
 #ifndef ASIN_H_
 #define ASIN_H_
 
-#include "vdtcore_common.h"
+#include "vdt/vdtcore_common.h"
 
 namespace vdt{
 

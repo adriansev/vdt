@@ -26,7 +26,7 @@
 #ifndef SQRT_H_
 #define SQRT_H_
 
-#include "vdtcore_common.h"
+#include "vdt/vdtcore_common.h"
 
 namespace vdt{
 

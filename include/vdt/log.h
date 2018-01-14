@@ -27,7 +27,7 @@
 #ifndef LOG_H_
 #define LOG_H_
 
-#include "vdtcore_common.h"
+#include "vdt/vdtcore_common.h"
 #include <limits>
 
 namespace vdt{

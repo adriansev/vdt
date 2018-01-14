@@ -27,7 +27,7 @@
 #ifndef _VDT_EXP_
 #define _VDT_EXP_
 
-#include "vdtcore_common.h"
+#include "vdt/vdtcore_common.h"
 #include <limits>
 
 namespace vdt{

@@ -27,8 +27,8 @@
 #ifndef TAN_H_
 #define TAN_H_
 
-#include "vdtcore_common.h"
-#include "sincos.h"
+#include "vdt/vdtcore_common.h"
+#include "vdt/sincos.h"
 
 namespace vdt{
 

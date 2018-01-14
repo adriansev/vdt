@@ -25,8 +25,8 @@
 #ifndef INV_H_
 #define INV_H_
 
-#include "vdtcore_common.h"
-#include "sqrt.h"
+#include "vdt/vdtcore_common.h"
+#include "vdt/sqrt.h"
 #include <cmath>
 #include <limits>
 

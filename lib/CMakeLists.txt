@@ -16,7 +16,7 @@ if(PRELOAD)
 endif()
 
 # The library
-ADD_LIBRARY(vdt ${SRC_DIR}/vdtMath_signatures.cc ${INC_DIR}/vdtMath.h )
+ADD_LIBRARY(vdt ${SRC_DIR}/vdtMath_signatures.cc ${INC_DIR}/vdt/vdtMath.h )
 
 # Installation of the lib
 INSTALL(TARGETS vdt  
