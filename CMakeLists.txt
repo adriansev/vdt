@@ -236,7 +236,7 @@ set (DIAG_FLAGS "${CPP11_OPT} ${LIBTIMINGAPPLE} ${VECT_OPT} ${COMMON_FLAGS}")
 
 # Locations ====================================================================
 # Location of executables
-set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin )
+set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin )
 
 # Location of sources
 set( SRC_DIR ${CMAKE_SOURCE_DIR}/src )
@@ -281,4 +281,5 @@ INSTALL(FILES
         include/vdtcore_common.h
         include/vdtMath.h
         DESTINATION include/vdt)
+
 

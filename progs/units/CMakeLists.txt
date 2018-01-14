@@ -27,3 +27,7 @@ add_exe_and_link ( atan_test atan_test.cpp None )
 add_exe_and_link ( atan2_test atan2_test.cpp None )
 
 # add_executable ( deleteme deleteme.cpp )
+INSTALL ( DIRECTORY ${CMAKE_BINARY_DIR}/bin/
+          FILE_PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_WRITE GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
+          DESTINATION bin
+)
